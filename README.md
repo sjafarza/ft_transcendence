@@ -1,4 +1,34 @@
-# ft_transcendence
-This project is about creating a website for the mighty Pong contest!
-For JavaScript
-https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0
+# transcendence_42
+
+## Installation
+
+```bash
+$ npm install
+```
+
+## Running the app
+
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
+
+## Test
+
+```bash
+# unit tests
+$ npm run test
+
+# e2e tests
+$ npm run test:e2e
+
+# test coverage
+$ npm run test:cov
+```
+

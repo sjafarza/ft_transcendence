@@ -1,0 +1,42 @@
+
+.combPos{
+        /* display: flex;
+        flex-direction:row;
+        align-items:center;
+        margin-top: 0;
+       padding-top: 0;
+       align-self: self-end; */
+       margin: 1rem;
+   
+}
+
+.cadre{
+    /* margin: auto; */
+    padding-top: 20px;
+    color: black;
+    font-weight:bold;
+    border: 3px solid black;
+    width: 120px;
+    height: 15.5rem;
+    border-radius: 10.9501px;
+    background: linear-gradient(0deg, #003ba5, #84c4e9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-top: -2rem;
+}
+
+
+.cadre p{
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.silver{
+    color: grey;
+    /* position: absolute; */
+    font-size: 30px;
+    border-radius: 50%;
+}

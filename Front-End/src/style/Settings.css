@@ -1,0 +1,73 @@
+.section h3 {
+	display: flex;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 36px;
+	letter-spacing: 0.17em;
+	padding-bottom: 12px;
+	padding-left: 15px;
+	width: 310px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.42);
+	margin-bottom: 15px;
+}
+
+p {
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	text-align: justify;
+}
+
+.contain-set {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+	margin-left: 60px;
+	height: 100vh;
+	width: 100vh;
+}
+
+.form-set {
+	margin-top: 20px;
+	text-align: initial;
+	display: flex;
+}
+
+.form-set .MuiFormControl-root.MuiTextField-root {
+	width: 70%;
+}
+
+#username {
+	background: #e4e4e4;
+	border: 1px solid rgba(0, 0, 0, 0.41);
+	border-radius: 8px;
+	box-sizing: border-box;
+	width: 273px;
+	height: 40px;
+	font-size: 12px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.custom-field .MuiFormLabel-root {
+	line-height: 1.05rem;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.custom-field .MuiFilledInput-underline {
+	width: calc(81% + 2px);
+	box-sizing: border-box;
+}
+
+.custom-field .MuiFilledInput-underline:after {
+	border-bottom: 2px solid #C7B9FF;
+}
+
+.custom-field .MuiInputLabel-shrink {
+	color: #9980ff !important;
+	font-family: 'Noto Sans', sans-serif;
+}

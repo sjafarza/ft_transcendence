@@ -1,22 +1,36 @@
-include ./srcs/.env
-export #to load .env fully for docker
+NAME=Transcendence
 
-NAME = Transcendence
+all: up
 
-all: $(NAME)
+up:
+	@printf "Building configuration ${NAME}...\n"
+	docker-compose up --build
 
-$(NAME):
-		docker-compose up --build -d
-		docker exec -it postgres sh -c "chmod -R 777 /var/lib/postgresql/data/"
+down:
+	@printf "Stopping configuration ${NAME}...\n"
+	docker-compose down
 
 clean:
-	-rm -rf /goinfre/$(USER)/data/*
-	docker system prune -f
-	docker image prune -f
-	@-docker rmi -f $(shell docker images -qa | uniq)
+	@printf "Cleaning configuration ${NAME}...\n"	
+	docker-compose down \
+	&& docker system prune -af
 
 fclean: clean
+	docker volume rm `docker volume ls -q`
+	
+re:	clean up
 
-re: fclean all
+stop:
+	docker stop `docker ps -aq`
 
-.PHONY: all clean fclean re 
+list:
+	docker ps
+
+volumes: 
+	docker volume ls
+
+volumes_del:
+	docker volume rm -f `docker volume ls -q`
+
+
+.PHONY: up down clean fclean re stop list volumes volume_del

@@ -1,0 +1,126 @@
+.channel-avatar-navbar.MuiAvatar-root {
+	color: rgb(241, 234, 241);
+	background-color: black;
+	border-radius: 25px;
+	margin-left: 15px;
+}
+
+.navbar-channel {
+	display: flex;
+	height: 120px;
+	padding: 10px;
+	background-color: #F0F0F0;
+	border-bottom: 1px solid #80808038;
+	align-items: center;
+}
+
+.name-channel h4 {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.name-channel {
+	display: flex;
+	flex-direction: column;
+	width: 129px;
+	height: 48px;
+	align-items: flex-start;
+	margin-left: 15px;
+}
+
+.name-channel p{
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 16px;
+	color: #8F9BB3;
+	margin-left: 5px;
+	/* margin-top: -10px; */
+}
+
+.btn-dialog-navbar {
+	cursor: pointer;
+	height: 22px;
+	color: black;
+	padding: 7px;
+	border: solid 1px grey;
+	border-radius: 44px;
+	width: 22px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.btn-dialog-navbar:hover {
+	background-color: white;
+	box-shadow: 0px 2px 2px #8b8a8a;
+}
+
+.btn-dialog-navbar-leave {
+	cursor: pointer;
+	height: 22px;
+	color: black;
+	padding: 7px;
+	border: solid 1px grey;
+	border-radius: 44px;
+	width: 22px;
+	margin-left: 10px;
+	margin-right: 10px;
+	position: absolute;
+	right: 40px;
+}
+
+.add-friend-navbar-chat {
+	cursor: pointer;
+	height: 22px;
+	color: black;
+	padding: 7px;
+	border: solid 1px grey;
+	border-radius: 44px;
+	width: 22px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.add-friend-navbar-chat:hover {
+	background-color: white;
+	box-shadow: 0px 2px 2px #8b8a8a;
+}
+
+.add-friend-navbar-chat.disabled {
+	opacity: 0.5; /* Réduit l'opacité pour donner un aspect désactivé */
+	pointer-events: none; /* Désactive les événements du bouton */
+	cursor: not-allowed; /* Change le curseur pour indiquer qu'il est désactivé */
+  }
+
+.btn-dialog-navbar-leave:hover {
+	background-color: rgb(236, 89, 89);
+	box-shadow: 0px 2px 2px #8b8a8a;
+}
+
+.btn-admin-channel {
+	display: flex;
+	justify-content: space-evenly;
+	width: 20rem;
+}
+
+.status-navbar {
+	display: flex;
+	flex-direction: row;
+	margin-top: -10px;
+}
+
+.fa-comment {
+	margin-left: 20.3rem;
+	font-size: 2rem;
+	margin-right: 3.3rem;
+}
+
+.fa-comment-left {
+	margin-left: 20rem;
+	font-size: 2rem;
+	margin-right: 1rem;
+}
+
+.gif {
+height: 80px;
+}

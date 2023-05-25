@@ -1,0 +1,94 @@
+.icon-setting {
+    color: grey;
+    margin-left: 3px;
+}
+
+.modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.modal-content-password {
+    width: 350px;
+    height: 250px;
+    background-color: #C7B9FF;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-content-password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-content-password h2 {
+    margin-bottom: 20px;
+}
+  
+  .custom-field {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.button-popup-global {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pwd-icon {
+    cursor: pointer;
+}
+
+.button-popup {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.channel-icon {
+    color: #699BF7;
+}
+
+.join-channel {
+    margin: 10px;
+}
+
+.visibility-icon {
+    display: flex;
+    align-items: center; 
+}
+
+.pwd-icon {
+    cursor: pointer;
+}
+
+.form-fields-channel {
+    width: 250px;
+}
+
+.channel-list-container {
+    display: inline-block;
+    vertical-align: top;
+    /* width: 200px; */
+  }
+  
+  .chat-room-container {
+    display: inline-block;
+    vertical-align: top;
+    /* width: calc(100% - 200px); */
+  }
+  

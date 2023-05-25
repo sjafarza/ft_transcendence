@@ -1,0 +1,145 @@
+.User {
+    display : grid;
+    padding-left: 10px;
+}
+
+.global {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-users {
+	width: 410px;
+	height: 61px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 110px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #5c5c5c;
+	text-align: initial;
+}
+
+.title-users span{
+	font-size: 17px;
+}
+
+.h1 {
+    width: 208px;
+    height: 42px;
+    left: 774px;
+    top: 14px;
+
+    margin-left: 500px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 42px;
+
+    letter-spacing: 0.17em;
+
+    color: #000000;
+}
+
+.line {
+    position: absolute;
+    width: 1200px;
+    height: 0px;
+    left: 416px;
+    top: 81px;
+
+    border: 2px solid #C7B9FF;
+}
+
+.avatar-img {
+
+    box-sizing: border-box;
+
+    left: 34.53%;
+    right: 62.11%;
+    top: 50.56%;
+    bottom: 43.47%;
+    border-radius: 50px;
+    width: 60px;
+    margin-right: 70px;
+
+    border: 2.97px solid #FFFFFF;
+    filter: drop-shadow(3.97px 2.97px 0px #000000);
+}
+
+.User li {
+    list-style-type: none;
+    margin-right: 300px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.friend-username {
+
+    width: 209.97px;
+    height: 33.03px;
+    left: 501.34px;
+    top: 291.55px;
+
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.button {
+    background: #C7B9FF;
+    border: 3px solid #000000;
+    border-radius: 4px;
+}
+
+.title-drawer {
+	height: 100px;
+	display: flex;
+	width: 100%;
+    border-bottom: 3px solid #699bf7;
+	align-items: center;
+}
+
+.title-drawer h2 {
+	font-family: 'Inter';
+	margin-left: 27px;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 28px;
+	margin-top: 10px;
+}
+
+.avatar-username-inlist {
+	display: flex;
+	align-items: center;
+	padding-left: 15px;
+}
+
+.users-list.MuiListItem-root,
+.users-list-blocked.MuiListItem-root {
+	width: 112%;
+	margin-left: -24px;
+	display: flex;
+	justify-content: space-between;
+	height: 62px;
+}
+
+.users-list-blocked .MuiListItemAvatar-root {
+    filter: grayscale(80%);
+  }
+
+.btn-inlist {
+	display: flex;
+	width: 135px;
+	justify-content: space-around;
+}
+
+
